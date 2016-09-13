@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dynamic HTML</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script language="javascript" type="text/javascript">
+            var output;
+            function init() {
+                output = document.getElementById("output");
+            }
+
+            function append() {
+                var paragraph = document.createElement("p");
+                paragraph.innerHTML = "Hey joe";
+                output.appendChild(paragraph);
+            }
+            window.addEventListener("load", init);
+
+        </script>
+    </head>
+    <body>
+        <form>
+            <input onclick="append()" value="Append" type="button"/>
+        </form>
+        <section id="output"></section>
+    </body>
+</html>
