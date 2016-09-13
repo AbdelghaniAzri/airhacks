@@ -1,0 +1,12 @@
+div{
+    width: 100px;
+}
+
+div.title{
+    background: red;
+
+}
+
+#important{
+    height: 200px;
+}

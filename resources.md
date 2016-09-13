@@ -19,3 +19,21 @@ http://www.adam-bien.com/roller/abien/entry/configuring_glassfish_to_serve_offli
 http://www.w3.org/TR/workers/
 http://www.w3.org/TR/service-workers/
 http://fontawesome.io/icons/
+https://code.visualstudio.com
+http://emmet.io
+http://www.gsmlondon.ac.uk/global-oil-map/#1995-importers-528
+https://greensock.com
+http://www.w3.org/Style/CSS/specs
+http://sass-lang.com
+http://sass-lang.com/guide (variables are the killer feature )
+http://learnlayout.com
+http://www.w3.org/TR/css3-mediaqueries/
+http://stephen.io/mediaqueries/ (ios)
+http://learnlayout.com/flexbox.html
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://css-tricks.com/snippets/css/complete-guide-grid/
+http://960.gs
+http://purecss.io/
+http://topcoat.io
+http://getbootstrap.com
+http://napkinlaf.sourceforge.net
