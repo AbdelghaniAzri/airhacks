@@ -14,3 +14,8 @@ https://www.destroyallsoftware.com/talks/wat
 https://tools.ietf.org/html/rfc6455
 http://socket.io
 http://www.adam-bien.com/roller/abien/entry/java_ee_7_sending_json
+http://www.w3.org/TR/html5/browsers.html#offline
+http://www.adam-bien.com/roller/abien/entry/configuring_glassfish_to_serve_offline
+http://www.w3.org/TR/workers/
+http://www.w3.org/TR/service-workers/
+http://fontawesome.io/icons/

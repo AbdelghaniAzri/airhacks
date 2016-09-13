@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <canvas id="panel" width="500" height="500"></canvas>
+        <script>
+            var panel = document.getElementById("panel");
+            panel.addEventListener("click", function (e) {
+                for (key in e) {
+                    console.log(key + " -> " + e[key]);
+                }
+            }, false);
+            var paper = panel.getContext("2d");
+            var gradient = paper.createLinearGradient(0, 0, 500, 0);
+            gradient.addColorStop(0, "white");
+            gradient.addColorStop(0.5, "green");
+            gradient.addColorStop(1, "red");
+            paper.fillStyle = gradient;
+            paper.fillRect(10, 10, 500, 500);
+
+            paper.strokeStyle = "green";
+            paper.moveTo(10, 10);
+            for (var i = 10; i < 50; i++) {
+                paper.lineTo(i, i);
+            }
+
+            paper.stroke();
+            paper.moveTo(0, 0);
+            paper.fillStyle = "blue";
+            paper.font = "2.5em Menlo";
+            paper.fillText("duke", 50, 50);
+        </script>
+    </body>
+</html>
