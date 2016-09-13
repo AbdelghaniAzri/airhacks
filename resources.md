@@ -9,3 +9,4 @@ http://www.w3.org/TR/microdata/
 http://www.w3.org/TR/html5/forms.html
 https://modernizr.com
 http://www.w3.org/TR/2016/REC-webstorage-20160419/
+http://www.w3.org/TR/2008/WD-geolocation-API-20081222/

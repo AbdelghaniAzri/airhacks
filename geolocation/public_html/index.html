@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Geolocation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 id="output"></h1>
+        <script>
+            var configuration = {maximumAge: 1000, enableHighAccuracy: true, timeout: 20000};
+            navigator.geolocation.getCurrentPosition(display, errorHandler, configuration);
+
+            function display(position) {
+                var latitude = position.coords.latitude;
+                var longitude = position.coords.longitude;
+                var altitude = position.coords.altitude;
+                var accuracy = position.coords.accuracy;
+                var altitudeAccuracy = position.coords.altitudeAccuracy;
+                var heading = position.coords.heading;
+                var speed = position.coords.speed;
+                var timestamp = timestamp;
+                console.log(JSON.stringify(position));
+            }
+
+            function errorHandler(error) {
+                console.log(error.code, error.message);
+                switch (error.code) {
+                    case 1:
+                        console.log("PERMISSION_DENIED");
+                        break;
+                    case 2:
+                        console.log("POSITION_UNAVAILABLE");
+                        break;
+                    case 3:
+                        console.log("TIMEOUT");
+                        break;
+                }
+            }
+        </script>
+    </body>
+</html>
