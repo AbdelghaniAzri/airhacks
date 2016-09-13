@@ -37,3 +37,16 @@ http://purecss.io/
 http://topcoat.io
 http://getbootstrap.com
 http://napkinlaf.sourceforge.net
+https://material.google.com
+https://material.angularjs.org/latest/
+http://demos.wijmo.com/5/angular2/FlexGridIntro/FlexGridIntro/
+https://vaadin.com/elements
+https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4#.9za3tsesn
+http://chaijs.com
+http://jasmine.github.io
+http://www.nightmarejs.org
+https://babeljs.io
+http://redux.js.org
+https://github.com/reactjs/react-router
+https://webpack.github.io
+https://github.com/systemjs/systemjs
