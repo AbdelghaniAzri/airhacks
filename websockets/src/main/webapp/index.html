@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <button onclick="sendMessage()">Send message</button>
+        <script>
+            var socket = new WebSocket("ws://localhost:8080/websockets/hello");
+            console.log(socket);
+            socket.onopen = function (e) {
+                console.log("opening", e);
+            };
+            socket.onmessage = function (e) {
+                console.log("data", e.data);
+                console.log(e);
+            };
+            function sendMessage() {
+                socket.send("hey duke");
+
+            }
+        </script>
+    </body>
+</html>

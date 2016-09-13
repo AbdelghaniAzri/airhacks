@@ -10,3 +10,7 @@ http://www.w3.org/TR/html5/forms.html
 https://modernizr.com
 http://www.w3.org/TR/2016/REC-webstorage-20160419/
 http://www.w3.org/TR/2008/WD-geolocation-API-20081222/
+https://www.destroyallsoftware.com/talks/wat
+https://tools.ietf.org/html/rfc6455
+http://socket.io
+http://www.adam-bien.com/roller/abien/entry/java_ee_7_sending_json
