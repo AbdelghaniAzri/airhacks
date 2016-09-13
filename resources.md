@@ -50,3 +50,13 @@ http://redux.js.org
 https://github.com/reactjs/react-router
 https://webpack.github.io
 https://github.com/systemjs/systemjs
+http://es6-features.org
+http://elm-lang.org
+https://medium.com/@franzejr/what-elm-and-redux-have-in-common-15fb64ca1dcb#.fjs5j6m7p
+http://ionic.io/2
+https://cordova.apache.org
+https://code.facebook.com/posts/1189117404435352/react-native-for-android-how-we-built-the-first-cross-platform-react-native-app/
+https://facebook.github.io/react-native/docs/native-modules-android.html
+http://www.vraptor.org
+https://abookapart.com
+https://www.smashingmagazine.com
