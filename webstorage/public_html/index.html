@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebStorage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3 id="output">events</h1>
+        <script>
+            //var store = window.sessionStorage;
+            var store = window.localStorage;
+            window.addEventListener("storage", onStoreModification, false);
+            store.java = "duke";
+            store.setItem("java", "duke42");
+            console.log(store["java"]);
+            console.log(store.java);
+            console.log(store.getItem("java"));
+            store.removeItem("java");
+            console.log("Removed:" + store.getItem("java"));
+
+            var person = {
+                name: "duke",
+                age: 20
+            };
+
+            store.setItem("p", JSON.stringify(person));
+
+            var personAsString = store.p;
+            var dukeAsObject = JSON.parse(personAsString);
+            console.log(dukeAsObject.name);
+
+            //only fires in case multiple windows / tabs are open
+            function onStoreModification(e) {
+                document.getElementById("output").textContent = (e.key + " " + e.oldValue + " " + e.newValue + " " + e.url + " " + e.storageArea);
+                console.log(e, e.key, e.oldValue, e.newValue, e.url);
+            }
+
+            store.clear();
+        </script>
+
+</body>
+</html>
